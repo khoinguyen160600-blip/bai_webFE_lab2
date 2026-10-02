@@ -1,0 +1,99 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html lang="vi">
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <meta charset=" UTF-8" />
+    <title>Web FE</title>
+    <link rel="stylesheet"  href="~/Content/Site.css"/>
+
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="@Url.Content("~/Content/img/vinfast.jpg.webp")" alt="Logo Vinfast" />
+
+            <h1>Trang web E-commerce</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Trang chủ</a></li>
+                <li><a href="#">Sản phẩm</a></li>
+                <li><a href="#">Giỏ hàng</a></li>
+                <li><a href="#">Liên hệ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="banner">
+        <div class="banner-content">
+            <h2>Chào mừng đến cửa hàng xe thương hiệu người việt</h2>
+            <p>Khám phá các sản phẩm mới nhất</p>
+            <a href="#" class="btn">Chốt ngay</a>
+        </div>
+    </section>
+
+    <section class="category">
+        <h2>Danh mục sản phẩm</h2>
+
+        <ul class="category-list">
+            <li>Xe máy điện </li>
+
+            <li>Xe hơi điện </li>
+
+            <li>Xe buýt điện </li>
+            <li>Phụ tùng khác </li>
+        </ul>
+        <img src="~/Content/img/xebuytdien.jpg" width="400" height="250" />
+        <img src="~/Content/img/xebantaidien.jpg" width="400" height="250" />
+    </section>
+
+    <section class="featured-products">
+        <h2>Sản phẩm nổi bật</h2>
+
+        <div class="product-container">
+
+            <div class="product-item">
+                <img src="~/Content/img/xebantai.jpg" />
+                <h3>Xe bán tải điện VF WILD</h3>
+                <p>Chỗ ngồi: 5 chỗ </p>
+                <p>Xe tích hợp xăng & điện -> chạy hơn 1000km</p>
+                <p>Giá chỉ từ: 860 triệu đồng</p>
+                <button>Mua</button>
+            </div>
+            <div class="product-item">
+                <img src="~/Content/img/xemay.jpg" />
+                <h3>Xe máy điện VF Kinet</h3>
+                <p>Tốc độ tối đa hơn 90km/h</p>
+                <p>Mỗi lần sạc có thể đi hơn 145km</p>
+                <p>Quan trọng: bảo hành pin lên đến 7 năm!!!</p>
+                <p>Giá chỉ: 45 triệu đồng </p>
+                <button>Mua</button>
+            </div>
+            <div class="product-item">
+                <img src="~/Content/img/xemini.jpg" />
+                <h3>Xe hơi điện nhỏ nhất VN:MiniCar VF2</h3>
+                <p>có 4 chỗ ngời</p>
+                <p>Mỗi lần sạc có thể đi hơn 200km</p>
+                <p>Giá chỉ: 200 triệu đồng</p>
+                <button>Mua</button>
+            </div>
+            <div class="product-item">
+                <img src="~/Content/img/xexang.jpg" />
+                <h3>Xe hơi xăng VF Lux A2.0 bản 2022 </h3>
+                <p>có 5 chỗ ngồi </p>
+                <p>Vs động cơ mạnh mẽ:2.0L-228 HP </p>
+                <p>Giá chỉ: 670 triệu đồng </p>
+                <button>Mua</button>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>© 2026 VinFast Store by nghle</p>
+    </footer>
+</body>
+</html>
